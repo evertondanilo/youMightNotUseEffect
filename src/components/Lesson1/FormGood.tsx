@@ -5,7 +5,7 @@ export const FormGood = () => {
   const [lastName, setLastName] = useState("Swift");
 
   // ✅ Good: calculated during rendering
-  // https://react.dev/learn/you-might-not-need-an-effect#chains-of-computations
+  // https://react.dev/learn/you-might-not-need-an-effect#updating-state-based-on-props-or-state
   const fullName = `${firstName} ${lastName}`;
 
   console.log("rendering");

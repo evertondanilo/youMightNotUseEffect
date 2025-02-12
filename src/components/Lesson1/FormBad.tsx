@@ -7,7 +7,7 @@ export const FormBad= () => {
   // 🔴 Avoid: redundant state and unnecessary Effect
   // This approach is more complicated and inefficient because it introduces
   // redundant state and an unnecessary effect, leading to extra renders and potential bugs.
-  // https://react.dev/learn/you-might-not-need-an-effect#chains-of-computations
+  // https://react.dev/learn/you-might-not-need-an-effect#updating-state-based-on-props-or-state
   const [fullName, setFullName] = useState("");
 
   useEffect(() => {

@@ -1,0 +1,12 @@
+.fancy-input {
+  background-color: rgb(17, 209, 4);
+  color: #000000;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(17, 209, 4);
+}
+
+.callout {
+  color: red;
+  margin-top: 5px;
+}
